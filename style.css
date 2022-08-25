@@ -1,0 +1,55 @@
+header ul {
+    font-size: 0.7em;
+    list-style: none;
+  
+    
+}
+
+header {
+    
+    
+}
+
+.nombre {
+    background-color: green;
+}
+
+.bandeau {
+    border: 2px solid black;
+    background-color: grey;
+
+}
+
+.pxbas {
+    border: 2px  black;
+    
+}
+
+.logo {
+    border: 2px  black;
+    
+}
+
+.imgLogo {
+    border: 2px  black ;
+    
+}
+
+.gauche, .droite {
+    color: red;
+}
+
+.illustration img {
+    height: 80%;
+    
+}
+
+.cardicon{
+    height: 150px;
+}
+
+.ampoule{
+    font-size: 6em;
+}
+
+

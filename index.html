@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <title>Document</title>
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+<script src="https://kit.fontawesome.com/a6f6bb0136.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header >
+        <div class="bg-secondary">
+            <div class="row justify-content-start">
+            <!--logo et nom du site-->
+                <div class="logo  col-2 d-flex align-items-center">
+                    <div class="row justify-content-start ">
+                    <img class="imgLogo col-6 " src="./images/logoprixbas.png" alt="logo">
+                    <p class="pxbas col-6 my-3">PRIXBAS</p>
+                    </div>
+                </div>
+            <!--description choix des commandes dans le header à droite-->
+                <div class="col-2"></div>
+                <div class="col-8">
+                    <div class="row justify-content-start">
+                        <div class="col-2"></div>
+                        <p class="col-9 fw-bold fs-6 text-end">Tous vos besoins à petits prix dans la métropole Lilloise</p>
+                        <div class="col-1"></div>
+                    </div>
+                     
+
+                <ul class="row justify-content-start">
+                    <li class="col-1"></li>
+                    <li class="col-4"> <span class="nombre badge">1</span> choix et commande des articles</li>
+                    <li class="col-3"> <span class="nombre badge">2</span> retrait des articles</li>
+                    <li class="col-4"> <span class="nombre badge">3</span> paiement des articles</li>
+                </ul>
+                     </div>
+                    </div>             
+            </div>
+        </div>
+        <div class="bg-primary">
+            <nav class="container-lg ">
+                <div class="row">
+                <div class="recherche col-6 d-flex align-items-center">
+                <div class="row ">
+                    <div class="col-4  ">
+                        <button class="categorie rounded-3" type="button">Catégories \/</button>
+                    </div>
+                    <div class="col-7 ">
+                        <form>
+                            <input class="inputRecherche w-100 rounded-3" type="search" id="search" />
+                        </form>
+                    </div>
+                    <div class="col-1">
+                        <button class="btnRecherche rounded-3 bg-danger text-white" type="submit">Rechercher</button>
+                    </div>
+                </div>
+            </div>
+            <div class="liens col-6">
+                <ul class="list-group-horizontal">
+                    <li >Catalogue</li>
+                    <li>Questions fréquentes</li>
+                    <!--Menu select pour faire un dropdown par exemple-->
+                    <li>
+                        <select name="connexion" id="connexion">
+                            <option value="connexion">connexion</option>
+                            <option value="register">S'enregistrer</option>
+                        </select>
+                    </li>
+                </ul>
+                <i class="fa-solid fa-cart-arrow-down"></i>
+            </div>
+        </div>
+            </nav>
+        </div>
+    </div>
+    
+    </header>
+    <!--fin du header-->
+    <!--body du site-->
+    <main>
+        <!--premiere partie du body-->
+        <div class="top">
+            <div class="titreTop row mt-4 mb-5 text-danger">
+                <div class="col-2"></div>
+                <h2 class="col-3">Meilleures ventes</h2>
+                <div class="col-7"></div>
+            </div>
+
+
+            <div class="carousel row ">
+                <div class="gauche col-2 d-flex align-items-center d-flex justify-content-end">
+                    <i class="fa-regular fa-circle-left fleche"></i>
+                </div>
+                <div class="marteaux col-8">
+                    <div class="row">
+                        <img class="imgMarteau col-3" src="./images/marteau2.png" alt="marteau">
+
+
+                        <img class="imgMarteau col-3" src="./images/marteau2.png" alt="marteau">
+
+
+                        <img class="imgMarteau col-3" src="./images/marteau2.png" alt="marteau">
+
+                        <img class="imgMarteau col-3" src="./images/marteau2.png" alt="marteau">
+                    </div>
+                </div>
+                    <div class="droite col-2 d-flex align-items-center">
+                    <i class="fa-regular fa-circle-right fleche"></i>
+                </div>
+            </div>
+        </div>
+        <!--Deuxième partie du body-->
+        <div class="titreDecouverte row">
+            <div class="col-2"></div>
+            <h2 class="col-7 mt-5 mb-5 text-danger">Découvrez nos offres par catégories</h2>
+            <div class="col-5"></div>
+        </div>
+        <div class="decouverte">
+            
+            <div class="container-lg">
+                <div class="row"> 
+                    
+                    
+                        
+                    <div class="col-2">
+                            <div class="card bg-secondary rounded-3 cardicon  ">
+                                <i class="fa-regular fa-lightbulb text-white ampoule  my-2 mx-5  "></i>
+                            </div> 
+                    </div>   
+                    <div class="col-2">
+                            <div class="card bg-secondary rounded-3 cardicon ">
+                                <i class="fa-regular fa-lightbulb text-white ampoule my-2 mx-5"></i>
+                            </div>
+                    </div>    
+                    <div class="col-2"> 
+                            <div class="card bg-secondary rounded-3 cardicon ">
+                                <i class="fa-regular fa-lightbulb text-white ampoule my-2 mx-5"></i>
+                            </div>    
+                    </div>
+                    <div class="col-2">
+                            <div class="card bg-secondary rounded-3 cardicon ">
+                                <i class="fa-regular fa-lightbulb text-white ampoule my-2 mx-5 "></i>
+                            </div> 
+                    </div>
+                    <div class="col-2">    
+                            <div class="card bg-secondary rounded-3 cardicon ">
+                                <i class="fa-regular fa-lightbulb text-white ampoule my-2 mx-5"></i>
+                            </div>
+                    </div> 
+                    <div class="col-2">       
+                            <div class="card bg-secondary rounded-3 cardicon ">
+                                <i class="fa-regular fa-lightbulb text-white ampoule my-2 mx-5"></i>
+                            </div> 
+                    </div>    
+                        
+                    
+                </div>  
+            </div>
+            <div class="container-lg mt-2">
+                <div class="row"> 
+                    
+                    
+                        
+                    <div class="col-2">
+                            <div class="card bg-secondary rounded-3 cardicon  ">
+                                <i class="fa-regular fa-lightbulb text-white ampoule  my-2 mx-5  "></i>
+                            </div> 
+                    </div>   
+                    <div class="col-2">
+                            <div class="card bg-secondary rounded-3 cardicon ">
+                                <i class="fa-regular fa-lightbulb text-white ampoule my-2 mx-5"></i>
+                            </div>
+                    </div>    
+                    <div class="col-2"> 
+                            <div class="card bg-secondary rounded-3 cardicon ">
+                                <i class="fa-regular fa-lightbulb text-white ampoule my-2 mx-5"></i>
+                            </div>    
+                    </div>
+                    <div class="col-2">
+                            <div class="card bg-secondary rounded-3 cardicon ">
+                                <i class="fa-regular fa-lightbulb text-white ampoule my-2 mx-5 "></i>
+                            </div> 
+                    </div>
+                    <div class="col-2">    
+                            <div class="card bg-secondary rounded-3 cardicon ">
+                                <i class="fa-regular fa-lightbulb text-white ampoule my-2 mx-5"></i>
+                            </div>
+                    </div> 
+                    <div class="col-2">       
+                            <div class="card bg-secondary rounded-3 cardicon ">
+                                <i class="fa-regular fa-lightbulb text-white ampoule my-2 mx-5"></i>
+                            </div> 
+                    </div>    
+                        
+                    
+                </div>  
+            </div>    
+            </div>
+        </div>
+        <!--Troisième partie du body-->
+        <div class="titreMarche row mt-5">
+            <div class="col-2"></div>
+            <h2 class="col-8 mb-5 text-danger">Avoir le choix chez Prix Marché</h2>
+            <div class="col-2"></div>
+        </div>
+        <div class="prixMarche row">
+            <div class="col-2"></div>
+            <div class="col-8 "> 
+                <div class="row">            
+                    <div class="illustration col-4 ">
+                        <img class="imgIllustration img-fluid" src="/images/livraison.jpg" alt="livraison">
+                        <p class="d-flex justify-content-center mt-5 text-danger fw-bold fs-5">Je Choisis</p>
+                    </div>
+                    <div class="illustration col-4 ">
+                        <img class="imgIllustration img-fluid" src="/images/livraison2.jpg" alt="livraison">
+                        <p class="d-flex justify-content-center mt-5 text-danger fw-bold fs-5">Je Choisis</p>
+                    </div>
+                    <div class="illustration col-4 ">
+                        <img class="imgIllustration img-fluid" src="/images/livraison3.jpg" alt="livraison">
+                        <p class="d-flex justify-content-center mt-5 text-danger fw-bold fs-5">Je Choisis</p>
+                    </div>
+                </div>
+            </div> 
+            <div class="col-2"></div>   
+        </div>
+    </main>
+    <!--Le footer séparé en 3 parties-->
+    <footer>
+        <!--Première partie-->
+        <div class="footerHaut mt-5 bg-primary ">
+            <div class="footerDetail container-lg ">
+                <div class="row d-flex align-items-center">
+                    <div class="col-3">
+                        <div class="footerIcons row ">
+                            <div class="icon col-2 d-flex align-items-center">
+                                <i class="fa-solid fa-hand-holding-dollar footIcon rounded-circle px-2 py-2 bg-light"></i>
+                            </div>
+                            <div class="description col-10 mt-3 text-white">
+                                <p class="headerFooter ">Articles à petits prix</p>
+                            <p class="descriptionFooter">La majorité des prix sont à 1 Euro</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="footerIcons row">
+                            <div class="icon col-2 d-flex align-items-center  ">
+                                <i class="fa-regular fa-money-bill-1 footIcon rounded-circle px-2 py-2 bg-light"></i>
+                            </div>
+                            <div class="description col-10 text-white">
+                                <p class="headerFooter">Achats sans soucis</p>
+                                <p class="descriptionFooter">Chaque commande est fournis main à la main</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="footerIcons row">
+                            <div class="icon col-2 d-flex align-items-center">
+                                <i class="fa-regular fa-credit-card footIcon rounded-circle px-2 py-2 bg-light"></i>
+                            </div>
+                            <div class="description col-10 text-white">
+                                <p class="headerFooter">Paiement sécurisé</p>
+                                <p class="descriptionFooter">Payez sans vous soucier lors du retrait</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="footerIcons row">
+                            <div class="icon col-2 d-flex align-items-center">
+                                <i class="fa-solid fa-truck footIcon rounded-circle px-2 py-2 bg-light"></i>
+                            </div>
+                            <div class="description col-10 text-white">
+                                <p class="headerFooter">Livraison Lilloise</p>
+                                <p class="descriptionFooter">Ce que vous voulez, préparé pour les Lillois</p>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Deuxième partie-->
+        <div class="footerBas container-lg mt-5 text-success">
+            <div class="row">
+                <div class="footerAccueil col-2 fs-5">
+                    <p>Accueil</p>
+                    <p>Catalogue</p>
+                    <p>Questions Fréquentes</p>
+                </div>
+                <div class="col-8"></div>
+                <div class="footerPremiere col-2 text-end fs-5">
+                    <p>Première Visite</p>
+                    <p>Livraison retrait</p>
+                    <p>Contact</p>
+                </div>
+            </div>
+        </div>
+        <!--Troisième partie-->
+        <div class="footerFooter row mt-5 bg-primary fs-5 text-white">
+            <div class="col-3"></div>
+            <div class="col-6 d-flex justify-content-center ">
+                
+            <p class="mt-2">Mentions légales | Conditions générales d'utilisation et de ventes</p>
+            
+                </div>
+            <div class="col-3"></div>
+        </div>
+    </footer>
+
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>    
+</body>
+
+</html>
